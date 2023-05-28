@@ -1,2 +1,13 @@
 node_modules
 dist
+### Vue template
+# gitignore template for Vue.js projects
+#
+# Recommended template: Node.gitignore
+
+
+docs/_book
+
+
+test/
+
