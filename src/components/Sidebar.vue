@@ -83,7 +83,7 @@
         <div class="h-screen m-2 flex grow flex-col gap-y-5 overflow-y-auto border-r border-gray-200 bg-white px-6 pb-4">
             <div class="flex h-16 shrink-0 items-center">
                 <logo class="h-8 w-auto"></logo>
-                <span class="h-auto w-auto text-dark ml-5">ChatBot</span>
+                <span class="h-auto w-auto text-gray-700 ml-5 text-lg hover:text-indigo-600 hover:bg-gray-50">ChatBot</span>
             </div>
             <nav class="flex flex-1 flex-col">
                 <ul role="list" class="flex flex-1 flex-col gap-y-7">
@@ -150,17 +150,17 @@ import {
 import {Logo} from "./icons/side";
 
 const navigation = [
-    {name: 'Dashboard', href: '#', icon: HomeIcon, current: true},
-    {name: 'Team', href: '#', icon: UsersIcon, current: false},
-    {name: 'Projects', href: '#', icon: FolderIcon, current: false},
-    {name: 'Calendar', href: '#', icon: CalendarIcon, current: false},
-    {name: 'Documents', href: '#', icon: DocumentDuplicateIcon, current: false},
-    {name: 'Reports', href: '#', icon: ChartPieIcon, current: false},
+    {name: 'ChatGpt3.5', href: '#', icon: HomeIcon, current: true},
+    // {name: 'Team', href: '#', icon: UsersIcon, current: false},
+    // {name: 'Projects', href: '#', icon: FolderIcon, current: false},
+    // {name: 'Calendar', href: '#', icon: CalendarIcon, current: false},
+    // {name: 'Documents', href: '#', icon: DocumentDuplicateIcon, current: false},
+    // {name: 'Reports', href: '#', icon: ChartPieIcon, current: false},
 ]
 const teams = [
     {id: 1, name: 'Heroicons', href: '#', initial: 'H', current: false},
-    {id: 2, name: 'Tailwind Labs', href: '#', initial: 'T', current: false},
-    {id: 3, name: 'Workcation', href: '#', initial: 'W', current: false},
+    // {id: 2, name: 'Tailwind Labs', href: '#', initial: 'T', current: false},
+    // {id: 3, name: 'Workcation', href: '#', initial: 'W', current: false},
 ]
 
 
